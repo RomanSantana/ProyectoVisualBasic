@@ -1,0 +1,196 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProyectoTaller
+</name>
+</assembly>
+<members>
+<member name="T:ProyectoTaller.TallerDataSet.EmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.RegistroDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.TallerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.VehiculosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.MarcaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.MecanicoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.ConVehiculoMarcaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.EmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.RegistroRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.TallerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.VehiculosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.MarcaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.MecanicoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.ConVehiculoMarcaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.EmpleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.RegistroRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.TallerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.VehiculosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.MarcaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.MecanicoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet.ConVehiculoMarcaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.EmpleadoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.RegistroTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.TallerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.VehiculosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.MarcaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.MecanicoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.ConVehiculoMarcaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ProyectoTaller.TallerDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProyectoTaller.TallerDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ProyectoTaller.TallerDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ProyectoTaller.TallerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ProyectoTaller.TallerDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ProyectoTaller.TallerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ProyectoTaller.TallerDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ProyectoTaller.TallerDataSetTableAdapters.TableAdapterManager.UpdateAll(ProyectoTaller.TallerDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ProyectoTaller.TallerDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:ProyectoTaller.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:ProyectoTaller.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:ProyectoTaller.My.Resources.Resources.fondo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ProyectoTaller.My.Resources.Resources.fondo1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ProyectoTaller.My.Resources.Resources.palomita">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ProyectoTaller.My.Resources.Resources.palomita2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ProyectoTaller.My.Resources.Resources.palomita21">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ProyectoTaller.My.Resources.Resources.palomita22">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ProyectoTaller.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>
